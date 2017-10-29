@@ -65,6 +65,18 @@ body {
     border-color: #f0ede4;
 }
 
+#side-bar section {
+    margin-top: 1.2rem;
+}
+
+#side-bar ul {
+    list-style: none;
+    margin: 0;
+}
+#side-bar .button {
+    width: 100%;
+}
+
 .side-bar-section {
     margin-bottom: 25px;
 }
@@ -117,12 +129,13 @@ footer h4 {
     margin: 0 auto;
 }
 
-.menu li {
-    
-}
-
 .menu a {
     color: #f0ede4;
+}
+
+.menu a:hover {
+    color: #f0ede4;
+    text-decoration: underline;
 }
 
 
@@ -173,6 +186,10 @@ h4 {
 
 a {
     color: #f49b03;
+}
+
+a:hover {
+    color: #375150;
 }
 
 .home-feature-post-article h2 {
