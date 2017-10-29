@@ -1,0 +1,193 @@
+/*!
+Theme Name: foundation
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: foundation
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+foundation is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+/* Colors */
+/* 
+Red #D2292C
+Dark aqua #375150
+Green #3f6623
+Orange #f49b03
+Pale #f0ede4
+*/
+
+body {
+    background-color: #FAF9F5;
+}
+
+.page-container {
+    background-color: #fff;
+}
+
+#header {
+    background-color: #f0ede4;
+    background-image: url("../img/headerimg2.jpg");
+    background-position: 40% 70%;
+    height: 250px;
+}
+
+.site-title {
+    width: 80%;
+    margin: 100px 100px;
+}
+
+.site-tagline {
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
+#main-content {
+    margin-top: 30px;
+}
+
+#side-bar {
+    margin: 20px 0px;
+    padding: 10px 10px;
+    border-left: solid 1px;
+    border-color: #f0ede4;
+}
+
+.side-bar-section {
+    margin-bottom: 25px;
+}
+
+.side-bar-menu {
+    list-style: none;
+    margin-left: 0px;
+}
+
+.about-img {
+    border-radius: 100%;
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: #375150;
+    /*height: 300px;*/
+    padding-top: 1rem;
+    margin-top: 5rem;
+}
+
+footer h4 {
+    color: #fff;
+}
+
+.footer-content {
+    margin-top: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* Nav menu */
+
+.menu-bar {
+    width: 100%;
+    background-color: #375150;
+}
+
+.menu {
+    margin: 0 auto;
+}
+
+.menu li {
+    
+}
+
+.menu a {
+    color: #f0ede4;
+}
+
+
+
+/* articles */
+
+.home-feature-post-article {
+    margin: 1.8rem 0px;
+}
+
+.home-recent-post-article {
+    margin: 1.5rem 0px;
+}
+
+.feature-post-img {
+    max-height: 220px;
+    margin-bottom: 1.5rem;
+}
+
+.home-recent-post-img {
+    margin-bottom: 1.5rem;
+    max-height: 220px;
+}
+
+.excerpt {
+    margin-top: 1rem;  
+}
+/* Typography */
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #3f6623;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+h2,
+h3,
+h4 {
+    color: #3f6623;
+}
+
+a {
+    color: #f49b03;
+}
+
+.home-feature-post-article h2 {
+    margin-bottom: 0px;
+}
+
+.home-recent-post-article h3 {
+    margin-bottom: 0px;
+}
+
+#article-heading {
+    margin-top: .8rem;
+}
+/*
+.post-meta {
+    margin-top: 0px;
+    font-size: .8em;
+}*/
